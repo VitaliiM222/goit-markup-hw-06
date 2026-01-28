@@ -52,7 +52,7 @@ color: #f4f4fd;
         background-color: #404bbf;
 } */
 
-.features-section {
+/* .features-section {
     padding: 120px 0;
 }
 
@@ -96,9 +96,9 @@ gap: 24px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-}
+} */
 
-.team-section {
+/* .team-section {
 background-color: #f4f4fd;
     padding: 120px 0;
 }
@@ -107,7 +107,7 @@ background-color: #f4f4fd;
     margin-bottom: 72px;
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
@@ -186,7 +186,7 @@ background: #fff;
     width: 16px;
     height: 16px;
     fill: #f4f4fd;
-}
+} */
 
 .portfolio-section{
     padding: 120px 0;

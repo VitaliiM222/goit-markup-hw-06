@@ -363,9 +363,14 @@ font-weight: 700;
     background-position: center;
     background-color: #2e2f42;
     padding: 72px 0;
+}
 
-    @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
-        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-mob-2x.jpg");
+@media screen and (min-resolution: 2dppx),
+screen and (-webkit-min-device-pixel-ratio: 2) {
+    .page-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office-mob-2x.jpg");
     }
 }
 
@@ -644,10 +649,6 @@ font-weight: 700;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-tab.jpg");
         max-width: 768px;
         padding: 112px 0;
-
-        @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-tab-2x.jpg");
-        }
     }
     .section-title {
         min-width: 496px;
@@ -665,15 +666,20 @@ font-weight: 700;
     }
 }
 
+@media screen and (min-width: 768px) and (min-resolution: 2dppx),
+screen and (min-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+    .page-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office-tab-2x.jpg");
+    }
+}
+
 @media screen and (min-width: 1158px) {
     .page-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office.jpg");
         max-width: 1440px;
         padding: 188px 0;
-
-        @media screen and (min-resolution: 2x), (-webkit-min-device-pixel-ratio: 2) {
-            background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url("../images/people-office-2x.jpg");
-        }
         }
         .section-title {
             margin-bottom: 48px;
@@ -696,6 +702,15 @@ font-weight: 700;
         .modal-checkbox-label {
             line-height: 1.33;
         }
+}
+
+@media screen and (min-width: 1158px) and (min-resolution: 2dppx),
+screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
+    .page-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office-2x.jpg");
+    }
 }
 
 /* features section styles */
@@ -1195,6 +1210,9 @@ font-weight: 700;
     .footer-social-list {
         justify-content: flex-start;
     }
+    .footer-subscribe-input {
+        width: 264px;
+    }
     .footer-subscribe {
         align-items: flex-start;
     }
@@ -1238,8 +1256,5 @@ font-weight: 700;
     .footer-subscribe-form {
         display: flex;
         flex-wrap: nowrap;
-    }
-    .footer-subscribe-input {
-        width: 264px;
     }
 }

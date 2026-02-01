@@ -225,7 +225,7 @@ button {
     opacity: 0;
     visibility: hidden;
     pointer-events: none;
-    transition:  250ms cubic-bezier(0.4, 0, 0.2, 1),
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -765,7 +765,7 @@ screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
 
 @media screen and (min-width: 1158px) {
     .features-section {
-        padding: 128px 0;
+        padding: 120px 0;
     }
     .features-list {
         flex-wrap: nowrap;
@@ -905,7 +905,7 @@ screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
 
 @media screen and (min-width: 1158px) { 
     .team-section {
-        padding: 128px 0;
+        padding: 120px 0;
     }
     .team-section>.container {
         max-width: 1158px;
@@ -1231,7 +1231,6 @@ screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
     }
     .footer-container {
         flex-wrap: nowrap;
-        align-items: flex-start;
         gap: 0;
     }
     .footer-container-line {
@@ -1249,6 +1248,9 @@ screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
     }
     .footer-social-list {
         justify-content: flex-start;
+    }
+    .footer-subscribe {
+        margin: 0 auto;
     }
     .footer-subscribe-input {
         opacity: unset;

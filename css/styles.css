@@ -1250,7 +1250,7 @@ screen and (min-width: 1158px) and (-webkit-min-device-pixel-ratio: 2) {
         justify-content: flex-start;
     }
     .footer-subscribe {
-        margin: 0 auto;
+        margin-left: auto;
     }
     .footer-subscribe-input {
         opacity: unset;
